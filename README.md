@@ -23,10 +23,12 @@ This model was trained using simplified city-based names. When entering data int
 3. Run: `predict.py`
 
 
+
 ## Example 
-### (batting_team, bowling_team, venue, target, current_score, wickets_lost, current_over, current_ball)
+##### (batting_team, bowling_team, venue, target, current_score, wickets_lost, current_over, current_ball)
 predict_live('Dhaka', 'Rajshahi', 'Sylhet', 133, 98, 5, 16, 0)
 
 
-### Caution
+
+##### Caution
 Pathway should be checked on your computer.
