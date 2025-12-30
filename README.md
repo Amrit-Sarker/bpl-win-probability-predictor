@@ -1,6 +1,6 @@
 # BPL Win Probability Predictor 🏏
 
-This is a Machine Learning project that predicts the win probability of the chasing team in the Bangladesh Premier League (BPL). Based on historical match data, the model achieves an **82.28% accuracy** using Logistic Regression.
+This is a Machine Learning project that predicts the win probability of the chasing team in the Bangladesh Premier League (BPL). Based on historical match data, the model achieves an **82.28% accuracy** using Logistic Regression data collected from **Cricsheet**.
 
 ## 📁 Project Structure
 * `bpl_analysis.ipynb`: The full data cleaning and model training process.
@@ -26,7 +26,7 @@ This model was trained using simplified city-based names. When entering data int
 
 ## Example 
 ##### (batting_team, bowling_team, venue, target, current_score, wickets_lost, current_over, current_ball)
-predict_live('Dhaka', 'Rajshahi', 'Sylhet', 133, 98, 5, 16, 0)
+**predict_live('Dhaka', 'Rajshahi', 'Sylhet', 133, 98, 5, 16, 0)**
 
 
 
