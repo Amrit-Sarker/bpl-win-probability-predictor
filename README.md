@@ -8,8 +8,8 @@ This is a Machine Learning project that predicts the win probability of the chas
   
 
 ## 📁 Project Structure
-* `bpl_analysis.ipynb`: The full data cleaning and model training process.
-* `bpl_model.pkl`: The trained model (the "brain").
+* `bpl_win_predictor.ipynb`: The full data cleaning and model training process.
+* `bpl_predictor.pkl`: The trained model (the "brain").
 * `predict.py`: A simple script to get live match predictions.
 
 ## 📋 Data Input Rules (City Names Only)
