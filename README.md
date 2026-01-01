@@ -3,8 +3,8 @@
 This is a Machine Learning project that predicts the win probability of the chasing team in the Bangladesh Premier League (BPL). Based on historical match data, the model achieves an **82.28% accuracy** using Logistic Regression.
 
 ## Data
-* Collected from **Cricsheet**.
-* Includes ball by ball information from **2012** to **2025**.
+* Collected from **Cricsheet** in `.json` format.
+* Includes ball by ball information from **2012** to **2025**, covering **436 matches**.
   
 
 ## 📁 Project Structure
@@ -28,18 +28,22 @@ This model was trained using simplified city-based names. When entering data int
 3. Run: `predict.py`
 
 
+## Informal Validation:
+The model’s ball-by-ball win probability outputs were informally sanity-checked during live matches by comparing them with **ESPN Cricinfo**, where the values showed close agreement in typical match situations.
+
 
 ## Example 
 **User Inputs:**
 * Batting Team
 * Bowling Team
 * Venue
-* Target, Current run, Wicket gone, Over, Ball
+* Target
+* Current Run
+* Wickets Gone
+* Current Over
+* Current Ball
 
 `predict_live('Dhaka', 'Rajshahi', 'Sylhet', 133, 98, 5, 16, 0)`
-
-## Informal Validation:
-The model’s ball-by-ball win probability outputs were informally sanity-checked during live matches by comparing them with **ESPN Cricinfo**, where the values showed close agreement in typical match situations.
 
 
 ##### Caution
