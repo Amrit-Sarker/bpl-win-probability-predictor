@@ -34,7 +34,7 @@ This model was trained using simplified city-based names. When entering data int
 **predict_live('Dhaka', 'Rajshahi', 'Sylhet', 133, 98, 5, 16, 0)**
 
 ## Informal Validation:
-The model’s ball-by-ball win probability outputs were informally sanity-checked during live matches by comparing them with ESPN Cricinfo, where the values showed close agreement in typical match situations.
+The model’s ball-by-ball win probability outputs were informally sanity-checked during live matches by comparing them with **ESPN Cricinfo**, where the values showed close agreement in typical match situations.
 
 
 ##### Caution
