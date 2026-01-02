@@ -4,7 +4,7 @@ This is a Machine Learning project that predicts the win probability of the chas
 
 ## Data
 * Collected from **Cricsheet** in `.json` format.
-* Includes ball by ball information from **2012** to **2025**, covering **436 matches**.
+* Includes ball by ball information from **2012** to **2025**, covering **435 matches**.
   
 
 ## 📁 Project Structure
